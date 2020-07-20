@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <meta lang="ar-AR">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+    <title>متجر بيع حسابات فورت نايت </title>
+    <meta name="title" content="متجر بيع حسابات فورت نايت ">
+    <meta name="description" content="حسابات فورت نايت للبيع ، سكنات نادره بأسعار منخفضة!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="متجر بيع حسابات فورت نايت ">
+    <meta property="og:description" content="حسابات فورت نايت للبيع ، سكنات نادره بأسعار منخفضة!">
+    <meta property="og:image" content="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/litera/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fortnite-store.ninja/css/cssanimation.css">
+    <link rel="stylesheet" type="text/css" href="https://fortnite-store.ninja/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center user_col">
+                    <i class="fa fa-user-o header_user_icon ml-3"></i>
+                    <i class="fa fa-search header_user_icon mr-3 ml-3"></i>
+                    <i class="fa fa-shopping-basket header_user_icon mr-3"></i>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center x">
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/cef31105-8a6e-4211-a74b-2f0bbd9791fb-profile_image-300x300.png" class="header_logo" onclick="window.location.href='index.html'">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center user_col">
+                    <select class="form-control select_currency">
+                        <option selected>ريال سعودي </option>
+                        <option>دولار أمريكي</option>
+                        <option>دينار بحريني</option>
+                        <option>درهم اماراتي</option>
+                    </select>
+                </div>
+                
+            </div>
+            <h4 class="text-center mt-2 text-success mb-2"> خصم 100% على جميع الحسابات في المتجر 😍😍</h4>
+            <p class="text-center text-warning mb-2 font-weight-bold">عرض صالح </p>
+            <p class="text-center text-warning">
+                <span id="hours" class="font-weight-bold">23</span> ساعة 
+                و <span id="mins" class="font-weight-bold">52</span> دقيقة 
+                و  <span id="secs"class="font-weight-bold">7</span> ثانية 
+            </p>
+            <p class="text-center text-danger mt-4 mb-3 font-weight-bold">⚠️احصل على حسابك قبل نفاذ الكمية ⚠️</p>
+        </div>
+    </header>
+
+    <div class="main bg-light">
+        <div class="container py-3">
+            <div class="row mt-3">
+                
+                <div class="col-lg-5 col-md-5 text-center">
+                    <img class="cart-img" src="https://i.imgur.com/bLBKiyV.jpg" style="width:100%">
+                </div>
+                <div class="col-lg-7 col-md-7 text-center">
+                    <h4 class="cart_title">    حسابات فيها بنت الطياره </h4><br>
+                    <h5 class="cart_old_price text-secondary">
+                        <strike>1500 ريال سعودي </strike>
+                    </h5>
+                    <h5 class="text-success font-weight-bold cart_new_price">0 ريال سعودي </h5>
+                    <br>
+                    <h6 class="text-secondary"><i class="fa fa-check"></i> الحساب مضمون 100% ينربط للسوني</h6><br>
+                    <h6 class="text-secondary"><i class="fa fa-check"></i> الحسابات تنربط للبي سي والاكسبوكس</h6><br>
+                    <h6 class="text-secondary"><i class="fa fa-check"></i> الحساب علامة صفراء </h6><br>
+                    <hr>
+                    <center><iframe width="100%" height="315" src="https://www.youtube.com/embed/EZkEFPRVsqA?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                    <div class="row pt-2" id='quantity'>
+                        <div class="col-3"><h6 style="float:left;margin-top:10px">الكمية  :</h6></div>
+                        <div class="col-9">
+                            <input type="number" value="1" class="form-control" style="width:80%">
+                        </div>
+                    </div>  
+                    <br>
+                    <center>
+                        <button class="btn btn-success locker">تأكيد </button>
+                    </center>
+                    <br>
+                    <center id="ogads" style="display:none">
+                        <h6 class="text-secondary">
+                            الايمايل : 
+                            <span id="gmail" class="text-danger"></span>
+                        </h6>
+                        <h6 class="text-secondary">
+                            الباسبورد : 
+                            <span id="password" class="text-danger">************</span>
+                        </h6>
+                        <kbd>بعد إكمال التحقق البشري ستحصل على كلمة المرور </kbd>
+                        <br><br>
+                        <div data-captcha-enable="true"></div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <div class="comments">
+        <div class="container py-3">
+            <div class="row mt-3">
+                <div class="col-6 col-lg-2 col-md-4">
+                    <h4 style="float:right;color:#a7a7a7">آراء العملاء</h4>
+                </div>
+                <div class="col-6 col-lg-10 col-md-8" style="margin-right:0;padding-right:0"><hr></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="comment">
+                        <h5>
+                            <i class="fa fa-user-o" style="font-size:30px;border-radius:50%;padding:8px 10px;border:1px solid black"></i>
+                            تركي الحارثي
+                            <kbd style="font-size:12px">قام بالشراء <i class="fa fa-check"></i></kbd>
+                            
+                        </h5>
+                    </div>
+                    <div class="stars" style="float:right;margin-right:30px">
+                        <i class="fa fa-star text-warning mr-2"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                    </div>
+                    <br>
+                    <h6 class="comment_text" style="float:right;margin-right:30px">
+                        جامد ومضموننن
+                    </h6>
+                    <br>
+                    <hr>
+
+
+
+                    <div class="comment">
+                        <h5>
+                            <i class="fa fa-user-o" style="font-size:30px;border-radius:50%;padding:8px 10px;border:1px solid black"></i>
+                            احمد علي 
+                            <kbd style="font-size:12px">قام بالشراء <i class="fa fa-check"></i></kbd>
+                            
+                        </h5>
+                    </div>
+                    <div class="stars" style="float:right;margin-right:30px">
+                        <i class="fa fa-star text-warning mr-2"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                    </div>
+                    <br>
+                    <h6 class="comment_text" style="float:right;margin-right:30px">
+                        انصحكم فيه يجنن
+
+                    </h6>
+                    <br>
+                    <hr>
+
+
+
+
+                    <div class="comment">
+                        <h5>
+                            <i class="fa fa-user-o" style="font-size:30px;border-radius:50%;padding:8px 10px;border:1px solid black"></i>
+                            ابو عابد 
+                            <kbd style="font-size:12px">قام بالشراء <i class="fa fa-check"></i></kbd>
+                            
+                        </h5>
+                    </div>
+                    <div class="stars" style="float:right;margin-right:30px">
+                        <i class="fa fa-star text-warning mr-2"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                    </div>
+                    <br>
+                    <h6 class="comment_text" style="float:right;margin-right:30px">
+                        فخم 
+                    </h6>
+                    <br>
+                    <hr>
+
+
+
+
+
+
+                    <div class="comment">
+                        <h5>
+                            <i class="fa fa-user-o" style="font-size:30px;border-radius:50%;padding:8px 10px;border:1px solid black"></i>
+                            فهيد حمود 
+                            <kbd style="font-size:12px">قام بالشراء <i class="fa fa-check"></i></kbd>
+                            
+                        </h5>
+                    </div>
+                    <div class="stars" style="float:right;margin-right:30px">
+                        <i class="fa fa-star text-warning mr-2"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                    </div>
+                    <br>
+                    <h6 class="comment_text" style="float:right;margin-right:30px">
+                        جامد ومضموننن
+                    </h6>
+                    <br>
+                    <hr>
+
+
+
+
+
+                    <div class="comment">
+                        <h5>
+                            <i class="fa fa-user-o" style="font-size:30px;border-radius:50%;padding:8px 10px;border:1px solid black"></i>
+                            خالد البشري 
+                            <kbd style="font-size:12px">قام بالشراء <i class="fa fa-check"></i></kbd>
+                            
+                        </h5>
+                    </div>
+                    <div class="stars" style="float:right;margin-right:30px">
+                        <i class="fa fa-star text-warning mr-2"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                    </div>
+                    <br>
+                    <h6 class="comment_text" style="float:right;margin-right:30px">
+                        شكرا مر مضمون
+ 
+                    </h6>
+                    <br>
+                    <hr>
+
+
+
+
+                    <div class="comment">
+                        <h5>
+                            <i class="fa fa-user-o" style="font-size:30px;border-radius:50%;padding:8px 10px;border:1px solid black"></i>
+                            فهد العنزي 
+                            <kbd style="font-size:12px">قام بالشراء <i class="fa fa-check"></i></kbd>
+                            
+                        </h5>
+                    </div>
+                    <div class="stars" style="float:right;margin-right:30px">
+                        <i class="fa fa-star text-warning mr-2"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                    </div>
+                    <br>
+                    <h6 class="comment_text" style="float:right;margin-right:30px">
+                        مره كويس طلع لي نادر
+ 
+                    </h6>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br>
+
+
+<div class="main">
+        <div class="container py-3">
+            <div class="row mt-3">
+                <div class="col-4 col-lg-2 col-md-4">
+                    <h4 style="float:right;color:#a7a7a7">منتجات قوية </h4>
+                </div>
+                <div class="col-8 col-lg-10 col-md-8" style="margin-right:0;padding-right:0"><hr></div>
+            </div>
+
+            <div class="row products mt-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="product" onclick="window.location.href='account1.html';">
+                        <img src="https://i.imgur.com/toU6gmz.jpg">
+                        <h6 class="text-center mt-2 product_description">
+                            حسابات فيها اريال أسولت
+                        </h6>
+                        <hr>
+                        <div class="product_old_price text-secondary text-center"><strike>300 ريال سعودي </strike></div>
+                        <div class="text-center mt-1 text-success font-weight-bold mb-3">0 ريال سعودي </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="product" onclick="window.location.href='account2.html';">
+                        <img src="https://i.imgur.com/3sNBDsz.jpg">
+                        <h6 class="text-center mt-2 product_description">
+                            حسابات فيها رويال بومر 
+                        </h6>
+                        <hr>
+                        <div class="product_old_price text-secondary text-center"><strike>400 ريال سعودي </strike></div>
+                        <div class="text-center mt-1 text-success font-weight-bold mb-3">0 ريال سعودي </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="product" onclick="window.location.href='account3.html';">
+                        <img src="https://i.imgur.com/yycdjvU.jpg">
+                        <h6 class="text-center mt-2 product_description">
+                            حسابات فيها ريكون اكسبرت
+                        </h6>
+                        <hr>
+                        <div class="product_old_price text-secondary text-center"><strike>500 ريال سعودي </strike></div>
+                        <div class="text-center mt-1 text-success font-weight-bold mb-3">0 ريال سعودي </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="product" onclick="window.location.href='account4.html';">
+                        <img src="https://i.imgur.com/bLBKiyV.jpg">
+                        <h6 class="text-center mt-2 product_description">
+                            حسابات فيها بنت الطياره 
+                        </h6>
+                        <hr>
+                        <div class="product_old_price text-secondary text-center"><strike>1500 ريال سعودي </strike></div>
+                        <div class="text-center mt-1 text-success font-weight-bold mb-3">0 ريال سعودي </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="product" onclick="window.location.href='account5.html';">
+                        <img src="https://i.imgur.com/EiDJUDE.jpg">
+                        <h6 class="text-center mt-2 product_description">
+                            حسابات فيها بلاك نايت 
+                        </h6>
+                        <hr>
+                        <div class="product_old_price text-secondary text-center"><strike>1500 ريال سعودي </strike></div>
+                        <div class="text-center mt-1 text-success font-weight-bold mb-3">0 ريال سعودي </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="product" onclick="window.location.href='account6.html';">
+                        <img src="https://i.imgur.com/3XW0o9Q.jpg">
+                        <h6 class="text-center mt-2 product_description">
+                            حسابات فيها ميري مردور 
+                        </h6>
+                        <hr>
+                        <div class="product_old_price text-secondary text-center"><strike>1500 ريال سعودي </strike></div>
+                        <div class="text-center mt-1 text-success font-weight-bold mb-3">0 ريال سعودي </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var h = 23;
+    var m = 52;
+    var s = 7;
+    setInterval(()=>{
+        if(s == 0){
+            m--;
+            s = 60;
+            document.querySelector('#mins').innerHTML = m;
+            document.querySelector('#secs').innerHTML = 60;
+        }
+        else{
+            s--;
+            document.querySelector('#secs').innerHTML = s;
+        }
+    },1000);
+</script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="https://www.verifysuper.com/cp/js/captcha.js.php?id=258dfeb8a3efd151284575e50c906f48"></script>
+</html>
